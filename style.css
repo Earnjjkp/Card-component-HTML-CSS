@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Montserrat:wght@400;700&family=Poppins:wght@500&family=Red+Hat+Display:wght@500;700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Red Hat Display', sans-serif;
+scroll-behavior: smooth;
+
+
+}
+body{
+    max-width: 1530px;
+    height: 100vh;
+    background: url('images/pattern-background-desktop.svg' ) no-repeat;
+    background-size: contain;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.main{
+    width: 453px;
+    height: 700px;
+    background: #fff;
+   
+    border-radius: 15px;
+    box-shadow: 5px 5px 50px hsl(225, 100%, 94%)
+}
+.container{
+    width: 100%;
+    margin: 0 auto;
+}
+.img-header img{
+    max-width: 453px;
+    height: 221px;
+    border-radius: 15px 15px 0 0;
+}
+.content{
+    margin-top: 50px;
+}
+.content .container{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.content .container h1{
+    font-size: 24px;
+    color: hsl(223, 47%, 23%);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-weight: bold;
+    
+}
+.content .container p{
+    width: 308px;
+    height: 71px;
+    margin-top: 20px;
+    text-align: center;
+}
+.package{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.package .container{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background:#f8f9fe ;
+    height: 100px;
+    width: 350px;
+    border-radius: 15px;
+}
+.package .container img{
+    margin-right: 20px;
+}
+.package .container .name-package h1{
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: hsl(223, 47%, 23%);
+}
+.package .container .name-package h2{
+    font-size: 16px;
+    color: #808080;
+}
+.package .container a{
+    margin-left: 90px;
+    color: hsl(245, 75%, 52%);
+    cursor: pointer;
+}
+.package .container a:hover{
+    text-decoration: none;
+}
+.btn-pay{
+    margin-top: 35px;
+}
+.btn-pay .container{
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+}
+.btn-pay .container .Pay{
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    background: hsl(245, 75%, 52%) ;
+    color: #f8f9fe;
+    box-shadow: 0 10px 10px hsl(225, 100%, 94%);
+    font-weight: bold;
+    cursor: pointer;
+}
+.btn-pay .container .Pay:hover{
+    background: hsl(245, 75%, 62%) ;
+}
+.btn-pay .container a{
+    margin-top: 36px;
+    text-align: center;
+    text-decoration: none;
+    color: inherit;
+    color: #808080;
+    cursor: pointer;
+    font-weight: bold;
+}
+.btn-pay .container a:hover{
+    color:  hsl(223, 47%, 23%);
+}
+footer{
+    width: 100%;
+    margin: 0;
+    padding: 15px;
+}
+.attribution{
+    font-size: 15px;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+@media screen and (max-width:375px) {
+    body{
+        width: 100%;
+        background-size: contain;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+}
